@@ -19,6 +19,8 @@
 		F77558972475604B00DA8CAC /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77558962475604B00DA8CAC /* Command.swift */; };
 		F775589924757A9C00DA8CAC /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775589824757A9C00DA8CAC /* Memento.swift */; };
 		F775589B247580C700DA8CAC /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775589A247580C700DA8CAC /* Strategy.swift */; };
+		F775589D2475A3AD00DA8CAC /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775589C2475A3AD00DA8CAC /* Proxy.swift */; };
+		F775589F2475A74400DA8CAC /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775589E2475A74400DA8CAC /* Visitor.swift */; };
 		F79453862472CD44003315E8 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79453852472CD44003315E8 /* Builder.swift */; };
 		F79453882472F3E1003315E8 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79453872472F3E1003315E8 /* Singleton.swift */; };
 		F794538D2472FC9A003315E8 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794538C2472FC9A003315E8 /* Adapter.swift */; };
@@ -39,6 +41,8 @@
 		F77558962475604B00DA8CAC /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		F775589824757A9C00DA8CAC /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 		F775589A247580C700DA8CAC /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		F775589C2475A3AD00DA8CAC /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		F775589E2475A74400DA8CAC /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		F79453852472CD44003315E8 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		F79453872472F3E1003315E8 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		F794538C2472FC9A003315E8 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				F794538C2472FC9A003315E8 /* Adapter.swift */,
 				F74B9AE8247328F10057BCA7 /* Composite.swift */,
 				F74B9AEA24732FD10057BCA7 /* Facade.swift */,
+				F775589C2475A3AD00DA8CAC /* Proxy.swift */,
 			);
 			path = "Structural Patterns";
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 				F77558962475604B00DA8CAC /* Command.swift */,
 				F775589824757A9C00DA8CAC /* Memento.swift */,
 				F775589A247580C700DA8CAC /* Strategy.swift */,
+				F775589E2475A74400DA8CAC /* Visitor.swift */,
 			);
 			path = "Behavioral Patterns";
 			sourceTree = "<group>";
@@ -190,10 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74B9AEB24732FD10057BCA7 /* Facade.swift in Sources */,
+				F775589D2475A3AD00DA8CAC /* Proxy.swift in Sources */,
 				F755A34F247013FA00AF47CF /* Factory.swift in Sources */,
 				F79453882472F3E1003315E8 /* Singleton.swift in Sources */,
 				F77558972475604B00DA8CAC /* Command.swift in Sources */,
 				F755A33F247013A900AF47CF /* ViewController.swift in Sources */,
+				F775589F2475A74400DA8CAC /* Visitor.swift in Sources */,
 				F755A33B247013A900AF47CF /* AppDelegate.swift in Sources */,
 				F775589924757A9C00DA8CAC /* Memento.swift in Sources */,
 				F755A33D247013A900AF47CF /* SceneDelegate.swift in Sources */,
